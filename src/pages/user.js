@@ -4,7 +4,7 @@ import {ACTION_ADD_MESSSAGE} from "./../redux/slice/messageSlice" ;
 import './../assets/css/main.css' ;
 import {Button,} from "antd" ;
 import TextArea from "antd/es/input/TextArea" ;
-import {useChange} from "../Hooks/useChange";
+import {useChange} from "../hooks/useChange";
 
 const User = () => {
     const {user_id} = useParams() ;

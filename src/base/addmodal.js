@@ -3,7 +3,7 @@ import {Input, message, Modal} from "antd" ;
 import {List} from "../helper/list" ;
 import {useDispatch} from "react-redux";
 import {ACTION_ADD_USER} from "../redux/slice/userSlice";
-import {useChange} from "../Hooks/useChange";
+import {useChange} from "../hooks/useChange";
 
 const Addmodal = () => {
     const [isModalVisible, setIsModalVisible] = useState(false) ;
